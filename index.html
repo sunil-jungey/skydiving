@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#e9f4ff" />
+  <meta name="description" content="A little sorry, a big skydiving adventure, and a note for a very good friend named Indu." />
+  <meta property="og:title" content="Indu, I have a little question for you 🌸" />
+  <meta property="og:description" content="A friendship note and an unexpected adventure above the clouds." />
+  <title>For Indu 🌸 | A Little Sorry & A Big Adventure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+  <div class="floating-flowers" id="floatingFlowers" aria-hidden="true"></div>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="#" class="brand" id="homeLink" aria-label="Back to the beginning">
+        <span class="brand-mark">✿</span>
+        <span>just for <strong>Indu</strong><span class="brand-spark">✦</span></span>
+      </a>
+      <span class="header-pill"><span class="status-dot"></span> a friendship kind of thing</span>
+    </header>
+
+    <main id="mainContent">
+      <div class="progress" aria-label="Message progress">
+        <span class="progress-line active" id="progress1"></span>
+        <span class="progress-line" id="progress2"></span>
+        <span class="progress-line" id="progress3"></span>
+      </div>
+
+      <!-- CHAPTER 1: APOLOGY -->
+      <section class="scene" id="scene-apology" aria-labelledby="apologyTitle">
+        <div class="scene-content">
+          <p class="eyebrow"><span class="eyebrow-icon">🌷</span> FIRST, A LITTLE NOTE</p>
+          <h1 id="apologyTitle">Hey Indu,<br /><span class="text-accent">I'm sorry.</span></h1>
+          <p class="lead">I think I may have overreacted, and I wanted to say that properly.</p>
+          <p class="body-copy">I never meant to make things awkward or hurt your feelings. Our friendship and all the laughs we've shared mean a lot to me. I hope we can leave that moment behind and keep making good memories.</p>
+          <div class="inline-note"><span>☀️</span><span>No big speeches. Just a genuine sorry, from your friend.</span></div>
+          <button type="button" class="btn btn-primary next-btn" id="goInvitation">
+            I have one more thing to ask <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <div class="scene-art apology-art" aria-hidden="true">
+          <span class="doodle-star doodle-star-one">✳</span>
+          <span class="doodle-star doodle-star-two">✦</span>
+          <div class="postcard-shadow"></div>
+          <div class="postcard">
+            <div class="postcard-top"><span>TO: INDU</span><span class="stamp">FRIENDSHIP<br />MAIL ✿</span></div>
+            <div class="postcard-flower">🌼</div>
+            <div class="postcard-word">a little peace<br />offering.</div>
+            <div class="postcard-bottom">✧ good friends, good memories ✧</div>
+          </div>
+          <span class="little-sticker">made with good intentions ✨</span>
+        </div>
+      </section>
+
+      <!-- CHAPTER 2: SKYDIVING INVITATION -->
+      <section class="scene" id="scene-invitation" aria-labelledby="invitationTitle" hidden>
+        <div class="scene-content">
+          <p class="eyebrow"><span class="eyebrow-icon">✈️</span> OKAY, HERE'S THE SURPRISE</p>
+          <h1 id="invitationTitle">Indu, let's<br /><span class="text-accent">touch the sky!</span></h1>
+          <p class="lead">I've already been planning a skydiving adventure, and I'm honestly so excited about it!</p>
+          <p class="body-copy">Then I thought: adventures are even better with a good friend. Imagine the view, the adrenaline, and the stories we'd laugh about afterwards. 🪂</p>
+          <p class="question">So... would you go skydiving with me?</p>
+          <div class="choice-area" aria-label="Choose your answer">
+            <button type="button" class="btn btn-yes" id="yesButton">YES, LET'S GO! <span aria-hidden="true">🪂</span></button>
+            <button type="button" class="btn btn-no" id="noButton">Not this time <span aria-hidden="true">🙈</span></button>
+          </div>
+          <p class="choice-hint" id="choiceHint" aria-live="polite">Your choice, no pressure. Even if the No button gets a little cheeky. 😉</p>
+          <p class="privacy-hint" id="choicePrivacy">Your answer is saved on this device. You can share it with Sunil afterwards.</p>
+        </div>
+        <div class="scene-art sky-art" aria-hidden="true">
+          <div class="sky-sun"></div>
+          <span class="sky-cloud cloud-a">☁</span>
+          <span class="sky-cloud cloud-b">☁</span>
+          <span class="sky-cloud cloud-c">☁</span>
+          <span class="flight-dash flight-dash-a">· · · · · · · ·</span>
+          <span class="sky-plane">✈</span>
+          <span class="sky-parachute">🪂</span>
+          <div class="adventure-ticket">
+            <p>YOUR NEXT BIG ADVENTURE</p>
+            <div class="ticket-main"><strong>SKYDIVE</strong><span>☁️</span></div>
+            <div class="ticket-divider"></div>
+            <div class="ticket-bottom"><span>CREW<br /><strong>Indu + Sunil</strong></span><span>STATUS<br /><strong>Awaiting your answer</strong></span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHAPTER 3A: YES -->
+      <section class="scene response-scene" id="scene-yes" aria-labelledby="yesTitle" hidden>
+        <div class="response-illustration" aria-hidden="true">
+          <div class="response-circle yes-circle">🪂</div>
+          <span class="response-spark spark-one">🌸</span>
+          <span class="response-spark spark-two">✨</span>
+          <span class="response-spark spark-three">🌼</span>
+          <span class="response-spark spark-four">✦</span>
+        </div>
+        <p class="eyebrow centered">THE ADVENTURE IS CALLING</p>
+        <h1 id="yesTitle">Yesss, Indu! <span>🎉</span></h1>
+        <p class="response-lead">Looks like we've got a skydiving adventure to plan!</p>
+        <p class="response-body">I can't wait for the clouds, the excitement, and that unforgettable "WE ACTUALLY DID IT!" moment. Thank you for being the kind of friend who makes adventures even more fun. Here's to courage, laughter, and a brilliant memory together. 💛</p>
+        <p class="signature">— Your friend, Sunil</p>
+        <div class="response-actions">
+          <p class="delivery-status" id="yesDelivery" aria-live="polite"></p>
+          <button type="button" class="btn btn-primary" data-share="yes">Share my answer <span aria-hidden="true">↗</span></button>
+          <div class="secondary-actions">
+            <button type="button" class="text-button" data-copy="yes">Copy reply</button>
+            <span class="action-divider">•</span>
+            <button type="button" class="text-button" data-instagram="yes">Open Instagram DMs</button>
+          </div>
+        </div>
+        <button type="button" class="start-again" data-restart>Start again ↺</button>
+      </section>
+
+      <!-- CHAPTER 3B: NO -->
+      <section class="scene response-scene" id="scene-no" aria-labelledby="noTitle" hidden>
+        <div class="response-illustration" aria-hidden="true">
+          <div class="response-circle no-circle">🌻</div>
+          <span class="response-spark spark-one">🌸</span>
+          <span class="response-spark spark-two">✨</span>
+          <span class="response-spark spark-three">🍃</span>
+        </div>
+        <p class="eyebrow centered">NO WORRIES AT ALL</p>
+        <h1 id="noTitle">All good, Indu! <span>😊</span></h1>
+        <p class="response-lead">An adventure should always be something you want to do.</p>
+        <p class="response-body">Thanks for being honest! No skydiving pressure, promise. Our friendship matters much more than any plan, and there are still a million other fun memories to make. 🌼</p>
+        <p class="signature">— Your friend, Sunil</p>
+        <div class="response-actions">
+          <p class="delivery-status" id="noDelivery" aria-live="polite"></p>
+          <button type="button" class="btn btn-primary" data-share="no">Share my answer <span aria-hidden="true">↗</span></button>
+          <div class="secondary-actions">
+            <button type="button" class="text-button" data-copy="no">Copy reply</button>
+            <span class="action-divider">•</span>
+            <button type="button" class="text-button" data-instagram="no">Open Instagram DMs</button>
+          </div>
+        </div>
+        <button type="button" class="start-again" data-restart>Start again ↺</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>✿</span> for a good friend & a possible great adventure
+      <span class="footer-right">made by Sunil, with good vibes ☁</span>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
